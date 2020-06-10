@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator with Javascript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Simple Calculator with Javascript</h1>
+    <div id="calculator">
+      <div id="displayBoard">
+        <span id="demo"></span>
+        <div id="display">0</div>
+      </div>
+      <div id="calc-keys">
+        <div class="col">
+          <button class="btn" data-number="+">+</button>
+          <button class="btn" data-number="7">7</button>
+          <button class="btn" data-number="4">4</button>
+          <button class="btn" data-number="1">1</button>
+          <button class="btn" data-number="0">0</button>
+        </div>
+        <div class="col">
+          <button class="btn" data-number="-">-</button>
+          <button class="btn" data-number="8">8</button>
+          <button class="btn" data-number="5">5</button>
+          <button class="btn" data-number="2">2</button>
+          <button class="btn" data-number=".">.</button>
+        </div>
+        <div class="col">
+          <button class="btn" data-number="*">x</button>
+          <button class="btn" data-number="9">9</button>
+          <button class="btn" data-number="6">6</button>
+          <button class="btn" data-number="3">3</button>
+          <button class="btn clear-btn" data-number="clear" data-action>AC</button>
+        </div>
+        <div class="col">
+          <button class="btn divide-btn" data-number="/">÷</button>
+          <button class="btn equal-btn" data-action>=</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
